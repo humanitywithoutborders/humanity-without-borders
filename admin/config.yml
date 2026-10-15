@@ -1,0 +1,29 @@
+# Decap CMS configuration. GitHub OAuth must be configured before login works.
+backend:
+  name: github
+  repo: humanitywithoutborders/humanity-without-borders
+  branch: main
+  # Set base_url to your trusted GitHub OAuth bridge URL, and auth_endpoint if required.
+  # base_url: https://YOUR-OAUTH-BRIDGE.example
+  # auth_endpoint: auth
+media_folder: "assets/uploads"
+public_folder: "/humanity-without-borders/assets/uploads"
+site_url: "https://humanitywithoutborders.github.io/humanity-without-borders/"
+locale: en
+collections:
+  - name: "site"
+    label: "Site content"
+    files:
+      - name: "homepage"
+        label: "Homepage (English source)"
+        file: "content/home.json"
+        format: "json"
+        fields:
+          - {label: "Hero eyebrow", name: "hero_eyebrow", widget: "string"}
+          - {label: "Hero title", name: "hero_title", widget: "string"}
+          - {label: "Hero description", name: "hero_description", widget: "text"}
+          - {label: "Hero image", name: "hero_image", widget: "image"}
+          - {label: "Causes heading", name: "causes_heading", widget: "string"}
+          - {label: "Causes introduction", name: "causes_intro", widget: "text"}
+          - {label: "Mission heading", name: "mission_heading", widget: "string"}
+          - {label: "Footer description", name: "footer_description", widget: "text"}

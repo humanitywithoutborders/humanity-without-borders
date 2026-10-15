@@ -13,3 +13,23 @@ body.rtl .hero-content{margin-right:0;margin-left:auto}
 body.rtl .logo small{letter-spacing:0}
 @media(max-width:950px){.lang-switch{margin-inline-start:auto}.head-inner{gap:10px}body.rtl .dropdown{right:auto}}
 @media(max-width:620px){.lang-switch{max-width:85px;font-size:12px;padding:7px 3px}}
+
+/* Phase 2 visual refinement */
+:root{--hero-image:url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1600&q=85')}
+.hero{background-image:linear-gradient(90deg,rgba(6,30,42,.92),rgba(6,30,42,.30)),var(--hero-image);background-position:center;background-size:cover;min-height:630px}
+body.rtl .hero{background-image:linear-gradient(270deg,rgba(6,30,42,.92),rgba(6,30,42,.30)),var(--hero-image)}
+.card{transition:transform .25s ease,box-shadow .25s ease;border-radius:16px}
+.card:hover{transform:translateY(-5px);box-shadow:0 16px 40px #0a273425}
+.card img{transition:transform .4s ease}.card:hover img{transform:scale(1.035)}
+.btn{transition:transform .2s ease,background-color .2s ease}.btn:hover{transform:translateY(-2px)}
+.nav-trigger:focus-visible,.btn:focus-visible,.lang-switch:focus-visible{outline:3px solid #f6b648;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
+
+/* HWB visual upgrade: consistent editorial spacing and accessible interactions */
+:root{--hwb-navy:#092b39;--hwb-gold:#e5a83e}
+body{overflow-x:hidden} .container{max-width:1200px} .section{padding-top:clamp(55px,7vw,105px);padding-bottom:clamp(55px,7vw,105px)}
+.hero h1{max-width:850px;line-height:1.12;letter-spacing:-.025em;text-wrap:balance}
+.hero p{max-width:640px;line-height:1.85}.card{overflow:hidden;border:1px solid rgba(13,53,66,.08)}
+.card img{object-fit:cover}.btn{font-weight:700;letter-spacing:.02em}.banner{position:relative;overflow:hidden}
+.banner h1{text-wrap:balance}.detail p{line-height:1.85} a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #dca044;outline-offset:3px}
+@media(max-width:700px){.hero{min-height:530px}.hero h1{font-size:clamp(2.1rem,9vw,3.2rem)}.section{padding-top:52px;padding-bottom:52px}}

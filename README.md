@@ -14,3 +14,6 @@ Upload `index.html`, `style.css`, `app.js`, and `pages.json` to the root of your
 - Replace logo placeholder with your own logo.
 - The website uses remote Google Fonts and Unsplash photos; check licensing and availability before launch.
 - All pages are accessible via `index.html?page=...` for GitHub Pages compatibility.
+
+## Main-site package
+This package is configured for the `humanity-without-borders` GitHub Pages repository. `content/home.json` powers the English homepage. The `/admin/` CMS login is not operational without an external OAuth bridge.
