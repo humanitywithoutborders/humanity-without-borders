@@ -1,0 +1,207 @@
+[
+  {
+    "title": "Emergency Relief",
+    "group": "Programs",
+    "slug": "emergency-relief"
+  },
+  {
+    "title": "Medical Aid",
+    "group": "Programs",
+    "slug": "medical-aid"
+  },
+  {
+    "title": "Education and Opportunity",
+    "group": "Programs",
+    "slug": "education-opportunity"
+  },
+  {
+    "title": "Food Security",
+    "group": "Programs",
+    "slug": "food-security"
+  },
+  {
+    "title": "Shelter and Seasonal Support",
+    "group": "Programs",
+    "slug": "shelter-seasonal-support"
+  },
+  {
+    "title": "Water Sanitation and Hygiene",
+    "group": "Programs",
+    "slug": "water-sanitation-hygiene"
+  },
+  {
+    "title": "Orphan Care",
+    "group": "Programs",
+    "slug": "orphan-care"
+  },
+  {
+    "title": "Community Development",
+    "group": "Programs",
+    "slug": "community-development"
+  },
+  {
+    "title": "Gaza",
+    "group": "Where We Work",
+    "slug": "gaza"
+  },
+  {
+    "title": "Sudan",
+    "group": "Where We Work",
+    "slug": "sudan"
+  },
+  {
+    "title": "Lebanon",
+    "group": "Where We Work",
+    "slug": "lebanon"
+  },
+  {
+    "title": "Syria",
+    "group": "Where We Work",
+    "slug": "syria"
+  },
+  {
+    "title": "Yemen",
+    "group": "Where We Work",
+    "slug": "yemen"
+  },
+  {
+    "title": "Afghanistan",
+    "group": "Where We Work",
+    "slug": "afghanistan"
+  },
+  {
+    "title": "Bangladesh",
+    "group": "Where We Work",
+    "slug": "bangladesh"
+  },
+  {
+    "title": "Pakistan",
+    "group": "Where We Work",
+    "slug": "pakistan"
+  },
+  {
+    "title": "Somalia",
+    "group": "Where We Work",
+    "slug": "somalia"
+  },
+  {
+    "title": "Kenya",
+    "group": "Where We Work",
+    "slug": "kenya"
+  },
+  {
+    "title": "Nepal",
+    "group": "Where We Work",
+    "slug": "nepal"
+  },
+  {
+    "title": "Jordan",
+    "group": "Where We Work",
+    "slug": "jordan"
+  },
+  {
+    "title": "Ways to Give",
+    "group": "Get Involved",
+    "slug": "ways-to-give"
+  },
+  {
+    "title": "Volunteer",
+    "group": "Get Involved",
+    "slug": "volunteer"
+  },
+  {
+    "title": "Start a Fundraiser",
+    "group": "Get Involved",
+    "slug": "start-a-fundraiser"
+  },
+  {
+    "title": "Corporate Partnerships",
+    "group": "Get Involved",
+    "slug": "corporate-partnerships"
+  },
+  {
+    "title": "Events",
+    "group": "Get Involved",
+    "slug": "events"
+  },
+  {
+    "title": "Careers",
+    "group": "Get Involved",
+    "slug": "careers"
+  },
+  {
+    "title": "Our Mission",
+    "group": "About",
+    "slug": "our-mission"
+  },
+  {
+    "title": "Our Team",
+    "group": "About",
+    "slug": "our-team"
+  },
+  {
+    "title": "News",
+    "group": "About",
+    "slug": "news"
+  },
+  {
+    "title": "Reports",
+    "group": "About",
+    "slug": "reports"
+  },
+  {
+    "title": "Testimonials",
+    "group": "About",
+    "slug": "testimonials"
+  },
+  {
+    "title": "Frequently Asked Questions",
+    "group": "About",
+    "slug": "frequently-asked-questions"
+  },
+  {
+    "title": "Contact Us",
+    "group": "About",
+    "slug": "contact-us"
+  },
+  {
+    "title": "Privacy Policy",
+    "group": "About",
+    "slug": "privacy-policy"
+  },
+  {
+    "title": "Terms of Use",
+    "group": "About",
+    "slug": "terms-of-use"
+  },
+  {
+    "title": "Home",
+    "group": "Main",
+    "slug": ""
+  },
+  {
+    "title": "Programs",
+    "group": "Main",
+    "slug": "programs"
+  },
+  {
+    "title": "Where We Work",
+    "group": "Main",
+    "slug": "where-we-work"
+  },
+  {
+    "title": "Get Involved",
+    "group": "Main",
+    "slug": "get-involved"
+  },
+  {
+    "title": "About",
+    "group": "Main",
+    "slug": "about"
+  },
+  {
+    "title": "Donate",
+    "group": "Main",
+    "slug": "donate"
+  }
+]
